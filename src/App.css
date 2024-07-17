@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.card-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-around; /* Distribute cards evenly */
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  margin-top: 20px;
+}
+
+.card {
+  width: calc(33.33% - 20px); /* Adjust width to fit three cards in a row */
+  margin: 10px; /* Add space between cards */
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%; /* Ensure images fill the card */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.card-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-body {
+  margin-top: 10px;
+}
+
+.card-footer {
+  margin-top: 10px;
+  color: #666;
+}
