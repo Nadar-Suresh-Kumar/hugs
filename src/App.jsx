@@ -16,7 +16,7 @@ const spaces = [
     days_ago: 5,
     color: "green",
     image: "https://cdn-thumbnails.huggingface.co/social-thumbnails/spaces/stabilityai/stable-diffusion.png",
-    url: "https://huggingface.co/spaces/sureshimprint/txttoimg"
+    url: "https://huggingface.co/spaces/sureshimprint/okay"
   },
   { title: "Live Potrait",
     author: "kwaiVGI",
